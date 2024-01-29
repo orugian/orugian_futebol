@@ -1,0 +1,92 @@
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.navbar {
+  background-color: #41e149;
+}
+
+#cabecalho .nav .nav-link.active {
+  background-color: #fff;
+  color: #41e149;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+  color: black;
+}
+
+.navbar-toggler {
+  background-color: #d700f3a6;
+}
+
+.section-title {
+  
+  font-family: 'Tektur', sans-serif;
+}
+
+#sobre-quadras, #cardapio {
+  background-color: #07ee4133;
+}
+
+.text-colored {
+  color: #41e149;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+  background-color: #41e149;
+  color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+  color: #41e149;
+}
+
+.social-links li {
+  list-style: none;
+  display: inline;
+}
+
+.social-links a {
+  text-decoration: none;
+}
+
+.ttt{
+  margin-bottom: 50px;
+}
+
+.carousel-inner img{
+  max-width: fit-content;
+}
+
+.clube{
+  font-size: 23px;
+}
+
+#cardapio img{
+  max-width: 170px;
+  max-height: 170px;
+}
+
+#eventos img{
+  max-height: 550px;
+}
+
+.rodape{
+  text-align: center;
+  background-color: #41e149;  
+  margin-bottom: 0;
+  padding: 5px;
+  font-weight: 550;
+  align-items: center;
+  font-size: small;
+}
+
+@media (max-width: 767px) {
+  .carousel-item img {
+      height: 280px;
+  }
+}
